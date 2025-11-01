@@ -3,6 +3,7 @@ import random
 def main():
     print(" Willkommen zum Zahlenratespiel!")
     print("Ich denke an eine Zahl zwischen 1 und 100.")
+    print("are you ready to play")
     
     geheimzahl = random.randint(1, 100)
     versuche = 0
